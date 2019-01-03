@@ -1,0 +1,43 @@
+body {
+    padding: 2em;
+    color: white;
+}
+
+#container {
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    text-align: center;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#container > * {
+    padding: 5px;
+}
+
+.header {
+    background: tomato;
+}
+
+.article {
+    background: deepskyblue;
+    text-align: center;
+}
+
+p,
+.aside {
+    margin: 0px;
+}
+
+.asideLeft {
+    background: lightgreen;
+}
+
+.asideRight {
+    background: pink;
+}
+
+.footer {
+    background: violet;
+}
